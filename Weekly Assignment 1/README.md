@@ -1,5 +1,6 @@
 ### **Weekly Assignment 1 : Documentation**
 
+
 1. Originally, the files were created in [AWS Cloud9](https://us-east-2.console.aws.amazon.com/cloud9/ide/0fbf7e67daae4743879fe3dc25da2986) environment.
 
 2. [*node_modules*](https://github.com/aaditirokade/data-structures/tree/master/Weekly%20Assignment%201/node_modules) library was installed/imported using **npm install request** in the console 
