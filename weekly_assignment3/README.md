@@ -14,7 +14,7 @@
 
 5. String concatenation used to build URL with the street address, city and state. The URL also takes _apikey_ retrieved earlier. Request was logged for this URL using ```request(apiRequest, function(err, resp, body) { });``` It returns the HTML content in _body_ which was then parsed to _tamuGeo_ ```var tamuGeo = JSON.parse(body);```
 
-6. ```var thisGeo = {}; ``` was appended to create an object with elements- Street address, Latitude and Longitude. After observing the parsed HTML content and investigating the hierarchy, Latitude and Longitudes were found to be at ```tamuGeo.OutputGeocodes[0].OutputGeocode.Latitude``` & ```tamuGeo.OutputGeocodes[0].OutputGeocode.Longitude``` These objects were pused to _meetingsData_ array using ```meetingsData.push(thisGeo)```
+6. ```var thisGeo = {}; ``` was appended to create objects with elements- Street address, Latitude and Longitude. After observing the parsed HTML content and investigating the hierarchy, Latitude and Longitudes were found to be at ```tamuGeo.OutputGeocodes[0].OutputGeocode.Latitude``` & ```tamuGeo.OutputGeocodes[0].OutputGeocode.Longitude``` These objects were pused to _meetingsData_ array using ```meetingsData.push(thisGeo)```
 
 7. [*JSON.stringify*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) was used to convert JavaScript value to a JSON string. A *'first.json'* file was created manually and it was re-written using ```fs.writeFileSync('first.json', JSON.stringify(meetingsData));``` with the objects stored in meetingsData using File System package.
 
