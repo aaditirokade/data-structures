@@ -4,7 +4,7 @@
 
 1. The file was created in [Illustrator.](https://www.adobe.com/products/illustrator.html?gclid=Cj0KCQjw9NbdBRCwARIsAPLsnFbCEp0dwqvl61sblmvqs_WvFJftp2ErJCCIAgs0cjeQhNi--OYVJEIaAgMXEALw_wcB&sdid=KKQML&mv=search&ef_id=Cj0KCQjw9NbdBRCwARIsAPLsnFbCEp0dwqvl61sblmvqs_WvFJftp2ErJCCIAgs0cjeQhNi--OYVJEIaAgMXEALw_wcB:G:s&s_kwcid=AL!3085!3!196928852568!e!!g!!adobe%20illustrator)
 
-2. Afeter observing the webpage for [Zone04,](https://parsons.nyc/aa/m04.html) I realised that there are 3 major entities: *Meeting, Location, Hours*.
+2. After observing the webpage for [Zone04,](https://parsons.nyc/aa/m04.html) I realised that there are 3 major entities: *Meeting, Location, Hours*.
    ``` A Meeting has one Location and one set of *Hours*
        A Location has one or many Meetings
        A set of Hours has many meetings
