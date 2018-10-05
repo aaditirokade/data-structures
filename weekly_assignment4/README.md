@@ -11,6 +11,7 @@
        
 3. I decided to have one table each for Meeting, Location and Hours resp. with FK differently distibuted forming the options.
 
+#### Part2
 
 [AWS Cloud9](https://us-east-2.console.aws.amazon.com/cloud9/ide/0fbf7e67daae4743879fe3dc25da2986)
 The AWS DB instance was created and the [JS code](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment4/index_part2.js) was written as per the instructions for [Assignment4](https://github.com/visualizedata/data-structures/blob/master/assignments/weekly_assignment_04.md) with slight changes in the SQL query for creating and displaying the created table.
