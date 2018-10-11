@@ -18,4 +18,4 @@ The arguments passed to the Diary constructor involved: primarykey, date, game d
 
 The [javascript](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/index_part3.js) was written as per the instructions for [weekly assignment 5](https://github.com/visualizedata/data-structures/blob/master/assignments/weekly_assignment_05.md) with a tweak of looping for all the entries in diaryEntries.
 
-:: [Output](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/part3_output.png)
+:: [output](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/part3_output.png)
