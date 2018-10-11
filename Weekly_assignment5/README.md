@@ -2,7 +2,7 @@
 
 #### Part1
 
-1. For my dear diary project, I decided to record my online poker performance for atleast one round recoded/played daily. The final [data model](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/Part1_dataModel.png) was created in Adobe Illustrator.
+1. For my dear diary project, I decided to record my online poker performance for atleast one round recorded daily. The final [data model](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/Part1_dataModel.png) was created in Adobe Illustrator.
 
 2. From the diagram, it's evident that the data is not structured in a way that it is redundant. e.g there can be multiple rounds of poker on a single day. So 'date' gets repeated. Similarly, the cards dealt in hold, flop, turn and river sequence can also repeat themselves with multiple rounds. Same applies to 'result' as well. Hence, deta is denormalized. 
        
