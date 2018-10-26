@@ -8,5 +8,7 @@ New table [newdeardiary](https://github.com/aaditirokade/data-structures/blob/ma
 
 :: [updated table](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part2/newdeardiaryTable.png)
 :: [query output](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part2/queryOutput) for
-``` ExpressionAttributeValues: { ':date': { S: 'Oct 02 2018' }, ':round': { N: '1' } } 
+``` 
+ ExpressionAttributeValues: { ':date': { S: 'Oct 02 2018' }, ':round': { N: '1' } } 
 ```
+.
