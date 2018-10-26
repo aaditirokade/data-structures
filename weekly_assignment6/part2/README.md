@@ -1,20 +1,12 @@
-### **Weekly Assignment 5 : Documentation**
-
-#### Part1
-
-1. The [data model](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/Part1_dataModel.png) was created in Adobe Illustrator.
-
-2. After observing the data model I realised that the table entries for certain can get repetative for certain rows. This is a denormalized data model. When a data comes out of the database, it might be contained in a JSON format file but in terms of the structure, it will not be a strict tabular format but more of grouping of the *key: value* pairs depending upon the usecases. I do not see a harsh hierarchy but a list of *key:value* pairs arranged inside a table.
-
+### **Weekly Assignment 6 Part 2 : Documentation**
 
 #### Part2
 
-The [js code](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/index_part2.js) was written as per the instructions for [Assignment5](https://github.com/visualizedata/data-structures/blob/master/assignments/weekly_assignment_05.md)
-   
-:: [Output](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/part2_output)
+New table [newdeardiary](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part2/index_dataToDB.js
+) was created in DynamoDB database. The table was updated to get rid of the serial no. column that previously acted as the primary key. Intead [primary key](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part2/index_noSQL.js) of the new table is a combination of *'date'* being the *partition key* and *'round'* being the *sort key* so that I can fetch an entry of a particular round on a particular date for the diary interface.
+```'KeyConditionExpression': '#dt = :date AND #rd = :round' ```
 
-#### Part3
-
-The [js code](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/index_part3.js) was written as per the instructions with an addition of async.eachSeries to add all the values to the database.
-
-:: [Output](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/part3_output.png)
+:: [updated table](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part2/newdeardiaryTable.png)
+:: [query output](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part2/queryOutput) for
+``` ExpressionAttributeValues: { ':date': { S: 'Oct 02 2018' }, ':round': { N: '1' } } 
+```
