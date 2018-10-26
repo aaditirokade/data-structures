@@ -17,4 +17,4 @@ I've borrowed [Michael's code](https://github.com/wolfm2/data-structures/blob/ma
 
 #### Combined JSON
 
-[Combined](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment7/week7final.js)arguments from [output1](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment7/dump/output) & [output2](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment7/dump) to create a [combinedJSON](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment7) for each zone.
+[Combined](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment7/week7final.js) arguments from [output1](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment7/dump/output) & [output2](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment7/dump) to create a [combinedJSON](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment7) for each zone.
