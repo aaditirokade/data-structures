@@ -2,20 +2,31 @@
 
 #### Part1
 
-1. For my dear diary project, I decided to record my online poker performance for atleast one round recorded daily. The final [data model](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/Part1_dataModel.png) was created in Adobe Illustrator.
+1. New table [aalocations1](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part1/table_output.txt) was created in PostgreSQL database based on the JSON output from the [Assignment7](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment7) :: parsing all zones (I've borrowed [Michael's parser code](https://github.com/wolfm2/data-structures/blob/master/week_7/parseZones.js) temporarily to base the next bits of this assignment upon. I'll be building alternate one for future use.) + acquiring geocodes latitude and longitude info for locations from all zones + adding latitude and longitudes to the original JSON objects
 
-2. From the diagram, it's evident that the data is not structured in a way that it is redundant. e.g there can be multiple rounds of poker on a single day. So 'date' gets repeated. Similarly, the cards dealt in hold, flop, turn and river sequence can also repeat themselves with multiple rounds. Same applies to 'result' as well. Hence, deta is denormalized. 
-       
-3. The data can be structured depending upon the requirement (use case). Since it's in a *key:value* format, it provides a certain flexibility of the structure. We may want to use a certain structure constructed using certain key:value pairs of the same data set for particular purpose. Same applies to the hierarchy of the data, in my opinion, it's flexible and does not affect the usage/extraction of the data much.
+2. Constructed following [query](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part1/index_createTable.js) to create table with aa data parameters:
 
-#### Part2
+``` var thisQuery = "CREATE TABLE aalocations1 (oldAddress varchar(255),newAddress varchar(255),lat double precision, long double precision, title varchar(255), wheelc boolean, meetings integer, day varchar(100), startTime varchar(100), endTime varchar(100), meetingType varchar(50), details varchar(255));" ```
 
-The arguments passed to the Diary constructor involved: primarykey, date, game details(round. I have intentionally skipped some variables with repetative game details such as- table type - speed, stakes, number of players etc.), card details and results. We observe that on some days, multiple rounds were played, resulting into multiple enties with same 'date' value :[javascript](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/index_part2.js)
+:this SQL query is based on JSON [combinedm0XAddress.json](https://github.com/aaditirokade/data-structures/tree/master/weekly_assignment6/part1) files obnained as an output of assignment7.
 
-:: [output](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/part2_output)
-   
-#### Part3
+3. Constructed following [query](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part1/index_insertToTable.js) to add entries to the table aalocations1 for all zones. 
+``` var thisQuery = "INSERT INTO aalocations1 VALUES (E'"+ value.oldAddress.replace('\'', ' ') + "', '" + value.newAddress.replace('\'', ' ') + "','" +value.lat+ "','" +value.long+ "','" + value.title.replace('\'', ' ') + "','" +value.wheelc+ "','" +value.meetings.length+ "','" +value.meetings[i][0]+ "','" +value.meetings[i][1]+ "', '" +value.meetings[i][2]+ "','" +value.meetings[i][3]+ "','"+ value.details.replace('\'', ' ') + "');"; ```
 
-The [javascript](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/index_part3.js) was written as per the instructions for [weekly assignment 5](https://github.com/visualizedata/data-structures/blob/master/assignments/weekly_assignment_05.md) with a tweak of looping for all the entries in diaryEntries.
+Loop to iterate through independent JSON files obtained for each zone:
+```    for(j=1; j<11;j++) {
+              if(j<10){
+                  var addressesForDb = JSON.parse(fs.readFileSync('combinedm0'+j+'Address.json'));}
+              else{
+                  var addressesForDb = JSON.parse(fs.readFileSync('combinedm'+j+'Address.json')); } ```
+```
 
-:: [output](https://github.com/aaditirokade/data-structures/blob/master/Weekly_assignment5/part3_output.png)
+Table [aalocations1](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part1/table_output.txt) now has all aa data. 
+
+4. Below query fetches condition based entries from the table:
+```var thisQuery = "SELECT oldAddress, newAddress, lat, long FROM aalocations1 WHERE day = 'Mondays' AND startTime='1:00 PM';";```
+
+:: [query output](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment6/part1/queryOutput.txt)
+
+
+
