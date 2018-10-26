@@ -1,0 +1,60 @@
+ec2-user:~/environment/weekly_assignment6/part1 $ node index_createTable.js 
+null Result {
+  command: 'SELECT',
+  rowCount: 3,
+  oid: null,
+  rows: 
+   [ { oldaddress: '22 East 119th St.',
+       newaddress: '22 East 119th Street New York NY',
+       lat: 40.802107,
+       long: -73.944262 },
+     { oldaddress: '80 St.',
+       newaddress: '80 ST New York NY ',
+       lat: 40.7060856332181,
+       long: -74.0162322706993 },
+     { oldaddress: '207 West 96th St.',
+       newaddress: '165 W 105TH ST New York NY ',
+       lat: 40.7996866,
+       long: -73.9657282 } ],
+  fields: 
+   [ Field {
+       name: 'oldaddress',
+       tableID: 16507,
+       columnID: 1,
+       dataTypeID: 1043,
+       dataTypeSize: -1,
+       dataTypeModifier: 259,
+       format: 'text' },
+     Field {
+       name: 'newaddress',
+       tableID: 16507,
+       columnID: 2,
+       dataTypeID: 1043,
+       dataTypeSize: -1,
+       dataTypeModifier: 259,
+       format: 'text' },
+     Field {
+       name: 'lat',
+       tableID: 16507,
+       columnID: 3,
+       dataTypeID: 701,
+       dataTypeSize: 8,
+       dataTypeModifier: -1,
+       format: 'text' },
+     Field {
+       name: 'long',
+       tableID: 16507,
+       columnID: 4,
+       dataTypeID: 701,
+       dataTypeSize: 8,
+       dataTypeModifier: -1,
+       format: 'text' } ],
+  _parsers: 
+   [ [Function: noParse],
+     [Function: noParse],
+     [Function: parseFloat],
+     [Function: parseFloat] ],
+  RowCtor: null,
+  rowAsArray: false,
+  _getTypeParser: [Function: bound ] }
+ec2-user:~/environment/weekly_assignment6/part1 $ 

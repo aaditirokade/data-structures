@@ -1,0 +1,17 @@
+ec2-user:~/environment/Weekly_assignment6_part2 $ node index_noSQL.js 
+{ TableName: 'newdeardiary',
+  KeyConditionExpression: '#dt = :date AND #rd = :round',
+  ExpressionAttributeNames: { '#dt': 'date', '#rd': 'round' },
+  ExpressionAttributeValues: { ':date': { S: 'Oct 02 2018' }, ':round': { N: '1' } } }
+Query succeeded.
+***** ***** ***** ***** ***** 
+ { cardHold: { SS: [ '2D', 'QC' ] },
+  date: { S: 'Oct 02 2018' },
+  round: { N: '1' },
+  cardFlop: { SS: [ '6H', 'JD', 'JH' ] },
+  people: { N: '4' },
+  cardTurn: { S: '4H' },
+  cardRiver: { S: 'KS' },
+  water: { S: '2 ltr' },
+  result: { S: 'FOLDED' },
+  sentence: { S: 'Want The Onion’s email newsletter?' } }
