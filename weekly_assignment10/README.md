@@ -67,7 +67,7 @@ query:
                       FROM sensorData1
                       GROUP BY sensorValue, sensorday ;`;```
                       
-[Output](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment10/output/http:localhost:8080:sensor2.pdf)
+[Output](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment10/output/http:localhost:8080:sensor.pdf)
 
 
 
