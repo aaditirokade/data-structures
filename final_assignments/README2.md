@@ -31,6 +31,34 @@ Documentation:: Dear Diary
 ``` 
  ExpressionAttributeValues: { ':date': { S: 'Oct 02 2018' }, ':round': { N: '1' } } 
 ```
-6. Final query for final visualization was edited in a combined [server.js](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/server.js) file to obtain data for a particular day
+
+6. [This](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment11/UIconceptDeardiary.png) is what the visualization should look like. 
+- Data mapping: Overall game performance section should show colored blocks equivalent to games won/lost/folded till date.
+  Similarly, "No. pf people I talked to" & "Water Consumption" sections display blocks but only for last 3 days.
+- Assumptions: User is interested in knowing data on "No. pf people I talked to" & "Water Consumption" only for last 3 days.
+
+Considering above conditions, the variables I require are: 
+result, people, water
+
+query(using primary and combined key):
+
+```var params = {
+        TableName: 'newdeardiary',
+        KeyConditionExpression: '#dt = :date AND #rd = :round',
+        ExpressionAttributeNames: { 
+            "#dt" : 'date',
+            "#rd" : 'round'
+        },
+        ExpressionAttributeValues: {
+            ':date': {S: 'Nov 02 2018'},
+            ':round': {N: '1'}
+       }
+   };
+   ```
+
+[Output](https://github.com/aaditirokade/data-structures/blob/master/weekly_assignment10/output/http:localhost:8080:deardiary.pdf)
+
+
+7. Final query for final visualization was edited in a combined [server.js](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/server.js) file to obtain data for a particular day
 
 [Render](https://htmlpreview.github.io/?https://github.com/aaditirokade/data-structures/blob/master/final_assignments/public/index.html)
