@@ -1,17 +1,21 @@
 body{
-    background-color: LemonChiffon;
+    background-color: #fef4ea;
+    font-family: Lato, Helvetica, arial, sans-serif;
 }
 
 h3{
     margin-top: 40px;
     margin-left: 30%;
+    padding-top: 10px;
     font-family: arial;
-    font-size: 21px;
+    font-size: 18px;
+    color: #8b2252;
+
 }
 ul{
-   margin-left: 30%; 
+   margin-left: 30%;
    font-family: arial;
-   font-size: 16px;
+   font-size: 14px;
 }
 li{
     padding-top: 5px;
@@ -20,5 +24,5 @@ h2{
     margin-top: 40px;
     margin-left: 30%;
     font-family: arial;
-    font-size: 24px;
+    font-size: 21px;
 }
