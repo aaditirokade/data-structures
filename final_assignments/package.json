@@ -1,0 +1,34 @@
+{
+  "name": "ds_final_assignments",
+  "version": "1.0.0",
+  "description": "ds final assignments",
+  "main": "cut.js",
+  "dependencies": {
+    "aws-sdk": "^2.377.0",
+    "express": "^4.16.4",
+    "moment-timezone": "^0.5.23",
+    "pg": "^7.7.1"
+  },
+  "engines": {
+    "node": "v8.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaditirokade/data-structures/tree/master/final_assignments"
+  },
+  "keywords": [
+    "aa",
+    "meetings",
+    "dear",
+    "diary",
+    "tilt",
+    "sensor"
+  ],
+  "author": "aaditirokade",
+  "license": "UNLICENSED"
+}
