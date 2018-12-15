@@ -1,4 +1,4 @@
-Final Assignment1 : AA Meetings
+### Final Assignment1 : AA Meetings
 
 - UI Screenshots: [v1](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version1.png)  [v2](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version2.png)  [data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_aameetings_data.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README1.md) 
@@ -12,7 +12,8 @@ Final Assignment1 : AA Meetings
 
 
 
-Final Assignment2 : Dear diary
+
+### Final Assignment2 : Dear diary
 
 - UI Screenshots: [1](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_dearDiary.png)  [data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_dearDiary_data.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README2.md) 
@@ -33,7 +34,9 @@ Final Assignment2 : Dear diary
         } };
 ```
 
-Final Assignment3 : Tilt sensor
+
+
+### Final Assignment3 : Tilt sensor
 
 - Final UI snaps: [1](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_sensor.png)  [data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_sensor_data.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README3.md) 
