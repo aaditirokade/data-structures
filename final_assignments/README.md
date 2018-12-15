@@ -1,6 +1,6 @@
 ### Final Assignment1 : AA Meetings
 
-- UI Screenshots: [Version1](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version1.png)  [Version2](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version2.png)  [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_aameetings_data.png) [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
+- UI Screenshots: [Version1](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version1.png) . [Version2](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version2.png) . [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_aameetings_data.png) .  [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README1.md) 
 - hosted on: http://172.26.12.173:8080
 - Query and javascript [server.js](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/server.js)
@@ -15,7 +15,7 @@
 
 ### Final Assignment2 : Dear diary
 
-- UI Screenshots: [UI](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_dearDiary.png)  [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_dearDiary_data.png) . [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
+- UI Screenshots: [UI](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_dearDiary.png) . [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_dearDiary_data.png) . [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README2.md) 
 - hosted on: http://172.26.12.173:8080
 - Query and javascript [server.js](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/server.js)
@@ -38,7 +38,7 @@
 
 ### Final Assignment3 : Tilt sensor
 
-- Final UI snaps: [UI](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_sensor.png)  [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_sensor_data.png) [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
+- Final UI snaps: [UI](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_sensor.png) . [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_sensor_data.png) . [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README3.md) 
 - hosted on: http://172.26.12.173:8080
 - Query and javascript [server.js](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/server.js)
