@@ -528,8 +528,6 @@ app.get('/sensor', function(req, res) {
 
         <body>
 
-         <embed type="image/svg+xml" src="assets/hello.svg" />
-
 
         <script>
         var data = `;
