@@ -1,5 +1,6 @@
 ### Final Assignment1 : AA Meetings
 
+- [View](http://34.205.15.113:8080/)
 - UI Screenshots: [Version1](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version1.png) . [Version2](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_aaMeetings_version2.png) . [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_aameetings_data.png) .  [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README1.md) 
 - hosted on: http://172.26.12.173:8080
@@ -15,6 +16,7 @@
 
 ### Final Assignment2 : Dear diary
 
+- [View](http://34.205.15.113:8080/)
 - UI Screenshots: [UI](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_dearDiary.png) . [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_dearDiary_data.png) . [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README2.md) 
 - hosted on: http://172.26.12.173:8080
@@ -38,6 +40,7 @@
 
 ### Final Assignment3 : Tilt sensor
 
+- [View](http://34.205.15.113:8080/)
 - Final UI snaps: [UI](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_sensor.png) . [Data](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/screenshot_sensor_data.png) . [Landing page](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/screenshots/UI_screenshot_landingPage.png)
 - [Documentation](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/README3.md) 
 - hosted on: http://172.26.12.173:8080
