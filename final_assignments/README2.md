@@ -55,4 +55,4 @@ Query(using primary and combined key):
 
 7. Final query for final visualization was edited in a combined [server.js](https://github.com/aaditirokade/data-structures/blob/master/final_assignments/server.js) file to obtain data for a particular day
 
-[Render](https://htmlpreview.github.io/?https://github.com/aaditirokade/data-structures/blob/master/final_assignments/public/index.html)
+[Render](http://34.205.15.113:8080/)
