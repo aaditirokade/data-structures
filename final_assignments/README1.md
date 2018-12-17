@@ -87,7 +87,7 @@ title, newaddress, lat, long, starttime, endtime, meetingtype and details
 Hence, 
 [query] (https://github.com/aaditirokade/data-structures/blob/master/final_assignments/server1.js)
 &
-[Render](https://htmlpreview.github.io/?https://github.com/aaditirokade/data-structures/blob/master/final_assignments/public/index.html)
+[Render](http://34.205.15.113:8080/)
 
 I have developed 2 versions for aa meetings: 
 
